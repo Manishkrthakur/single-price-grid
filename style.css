@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(204, 43%, 93%);
+    font-family: "Karla", sans-serif;
+    font-size:16px;
+    font-weight:400;
+}
+.container{
+    width: 600px;
+    margin: 50px auto 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow:3px  3px 3px 0px rgba(0,0, 0, 0.4);
+    
+
+}
+h3{
+    font-size: 25px;
+    font-weight: 700;
+}
+p{
+    color:hsl(204, 43%, 93%);
+}
+.cards{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.second-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.grid-first{
+    background-color: hsl(179, 62%, 43%);
+    padding: 20px;
+}
+.grid-first h3{
+    color:#fff ;
+    margin-bottom: 10px;
+}
+.grid-first span{
+    font-size: 30px;
+    color:#fff ;
+    margin-right: 5px;
+}
+.grid-first p{
+    margin-bottom: 10px;
+    
+}
+.month{
+    color:hsl(218, 22%, 48%) ;
+}
+.grid-first button{
+    width: 70%;
+    padding: 12px;
+    margin-left: 20px;
+    border-radius: 8px;
+    border: none;
+    background-color:  hsl(71, 73%, 54%);
+    color: #fff;
+    font-size: 15px;
+    
+}
+.grid-second{
+    background-color: hsl(179, 62%, 50%);
+    padding: 20px;
+}
+.grid-second h3{
+    color: #fff;
+    margin-bottom: 10px;
+}
+.grid-second p{
+    line-height: 1.6;
+}
+.fisrt-box{
+padding: 20px;
+}
+.fisrt-box h3{
+    
+    margin:15px 0px 20px;
+    color: hsl(179, 62%, 43%);
+}
+.fisrt-box .days{
+    margin-bottom: 10px;
+    color:  hsl(71, 80%, 56%);
+}
+.fisrt-box p:last-child{
+    line-height: 1.6;
+    color: hsl(218, 22%, 67%) ;
+}
+@media (max-width:900px){
+    
+    .container{
+        width: 375px;
+    }
+    .cards{
+        display: grid;
+        grid-template-rows: 1fr;
+    }
+    .second-box{
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+
+}
